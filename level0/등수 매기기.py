@@ -44,5 +44,5 @@ def solution(score):
         
         
     rank = [j for i, j in dict]
-    ## print(dict)
+    ### print(dict)
     return rank
