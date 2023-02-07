@@ -1,4 +1,4 @@
-def solution(numbers):#
+def solution(numbers):##
     answer = 0
     for i in numbers:
         for j in numbers:
