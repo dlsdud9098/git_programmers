@@ -3,7 +3,6 @@ def solution(id_pw, db):
     for i in range(len(db)):
         login_db[db[i][0]] = db[i][1]
         
-    
     if id_pw[0] in login_db:
         print('아이디 맞음')
         if login_db[id_pw[0]] == id_pw[1]:
