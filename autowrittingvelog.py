@@ -214,8 +214,9 @@ def auto_write():
         driver.find_element(By.XPATH, '//*[@id="root"]/div[2]/div[2]/div/div[3]/div[2]/button[2]').click()
 
         # time.sleep(100)
-
+    time.sleep(1)
     driver.close()
+
 
 def change_public():
     driver = webdriver.Chrome('./chromedriver')
