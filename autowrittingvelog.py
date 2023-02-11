@@ -17,8 +17,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait as wait
 import schedule
 
-
-
 def auto_write():
     file_list = glob(r'C:\Users\inyoung\Desktop\git_programmers\*')
     file_create_date = {}
