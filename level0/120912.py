@@ -1,4 +1,4 @@
-def solution(array):
+def solution(array):#
     cnt = 0
     for i in range(len(array)):
         array_one = str(array[i])
