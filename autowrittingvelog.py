@@ -39,11 +39,11 @@ def auto_write():
     now_date_upload_list = []
     # print(now)
     for name, date in file_create_date.items():
-        # if date[0] == now:
-        #     now_date_upload_list.append(name)
-        #     now_date_upload_file.append(date[1])
-        now_date_upload_list.append(name)
-        now_date_upload_file.append(date[1])
+        if date[0] == now:
+            now_date_upload_list.append(name)
+            now_date_upload_file.append(date[1])
+        # now_date_upload_list.append(name)
+        # now_date_upload_file.append(date[1])
 
     # now_date_upload_file
     # 셀레니움
