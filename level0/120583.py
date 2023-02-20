@@ -3,4 +3,4 @@ def solution(array, n):
     for i in array:
         if i == n:
             answer += 1
-    return answer
+    return answer#
