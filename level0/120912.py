@@ -5,4 +5,4 @@ def solution(array):#
         for j in range(len(array_one)):
             if array_one[j] == '7':
                 cnt += 1
-    return cnt#
+    return cnt##
