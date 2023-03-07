@@ -45,4 +45,4 @@ def solution(lottos, win_nums):
             
     answer = [rank[high_rank], rank[low_rank]]  # 최고 순위와 최저 순위에 해당하는 상금을 리스트에 담아서 반환
     
-    return answer##
+    return answer###
